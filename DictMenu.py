@@ -1,9 +1,9 @@
 # Display menu
-print("=============MENU=============")
-print("1 -> Add an item")
-print("2 -> Search")
-print("3 -> Exit")
-print("==============================")
+print("●～●～●～●～● MENU ●～●～●～●～●")
+print("       1 - Add an item")
+print("         2 - Search")
+print("          3 - Exit")
+print("●～●～●～●～●～●～●～●～●～●～●～")
 dict = {}
 info = []
 # Ask user to select item
@@ -35,7 +35,7 @@ while True:
                 gender: user_gender, age : user_age, address : user_address, phone : user_phone
             }
         }
-        print("Info Saved.")
+        print("\033[1;32m Info Saved. \033[0;0m")
         print()
 
         info.append(dict)
